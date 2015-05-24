@@ -1,0 +1,142 @@
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+	<!-- Title and Meta Tags -->
+	<title>Coming Soon Viz Analytics</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	
+	<!-- Boostrap -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<!-- <link href="css/bootstrap.css" rel='stylesheet' type='text/css' /> -->
+	<!-- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> -->
+	
+	<!-- Boostrap - Social Media Font Awesone -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
+	
+	<!-- Tipografia -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+	
+	<!-- JavaScrip -->
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+	<!-- Contador y CSS  jquery.countdown.package-2.0.2 -->
+	<link rel="stylesheet" type="text/css" href="css/jquery.countdown.css"> 
+	<link rel="stylesheet" type="text/css" href="css/style.countdown.css"> 
+	<script type="text/javascript" src="js/jquery.plugin.js"></script> 
+	<script type="text/javascript" src="js/jquery.countdown.js"></script>
+	<script type="text/javascript" src="js/jquery.countdown-es.js"></script>
+	<script type="text/javascript" src="js/script.js">
+	</script>
+
+	<!-- Twitter -->
+	<script src="js/twitter-list.js"></script>
+ 	<!-- <script src="js/modernizr.custom.js"></script> -->
+	<!-- Efectos -->
+	</head>
+<body>
+
+<video autoplay poster="img/slide1.jpg" id="bgvid" loop>
+	<!-- <source src="http://demosthenes.info/assets/videos/polina.webm" type="video/webm">
+	<source src="http://demosthenes.info/assets/videos/polina.mp4" type="video/mp4"> -->
+</video> 
+<div id="fondo" class="fondo1"></div>
+
+<!-- HOME -->
+	<div class="container"> <!-- 	.container-fluid -->	
+		
+		<!-- Twitter List -->
+		<div class="row twitter-list">
+			<div class="col-md-3 col-md-offset-8 col-sm-6">
+			<div id="home-1" class="fadeIn-1">
+				<ul id="twitter-feed" class="list-tweets">
+					<li>bariol, now italics versions!! designed by atipo. download regular italic for free: <a href="http://t.co/qTFMZdbgcz">http://t.co/qTFMZdbgcz</a><div style="display: none; opacity: 0;" id="twitter-actions"><div class="intent" id="intent-reply"><a href="https://twitter.com/intent/tweet?in_reply_to=493009706642731009" title="Reply"></a></div><div class="intent" id="intent-retweet"><a href="https://twitter.com/intent/retweet?tweet_id=493009706642731009" title="Retweet"></a></div><div class="intent" id="intent-fave"><a href="https://twitter.com/intent/favorite?tweet_id=493009706642731009" title="Favourite"></a></div></div></li>
+				</ul>
+			<!-- <h1>-----</h1> -->
+			</div>
+			</div>
+		</div>
+
+
+		<div class="col-md-3 col-md-offset-8 footer-content fadeIn-2">
+			<div class="symbol fadeIn-1 fa-lg">
+				<a title="Twitter" href="#">
+ 					<span><i class="fa fa-twitter"></i>
+				</a>
+				<a title="LinkedIn" href="#">
+ 					<span><i class="fa fa-linkedin"></i>
+				</a>
+				<a title="Facebook" href="#">
+ 					<span><i class="fa fa-facebook"></i>
+				</a>
+				<a title="GooglePLus" href="#">
+ 					<span><i class="fa fa-google-plus"></i>
+			</a>	
+			</div>
+		</div>			
+
+
+		<!-- Counter -->
+		<div class="row">
+			<div class="col-xs-12 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">		
+				<div id="defaultCountdown2"></div>
+			</div>
+		</div>	
+		
+		<!-- Mensaje -->
+		<div class="row">
+			<div class="col-md-5 col-md-offset-1 intro">
+				<h1 class="fadeIn-2 font-mensaje">
+					Viz Analytics
+				</h1>
+			</div>
+		</div>
+		
+		<!-- About -->
+		<div class="row">
+			<div class="col-md-3 col-md-offset-2 col-xs-9 col-xs-offset-2 menu-content">
+				<ul class="menu fadeIn-3 list-unstyled">
+					<li>Innovación básada en  análisis y visualización de datos para incrementar sus ganancias</li>
+					<li>Contactenos</li>
+				</ul>
+			</div>
+			<!-- <h1>row - Mensaje</h1> -->
+		</div>
+
+		<!-- Social Media -->
+		<div class="row">
+			<div class="col-md-3 col-md-offset-8 footer-content fadeIn-2">
+				<h4 class="fadeIn-2">
+					
+					<small>
+						<span>
+							Viz Analytics @Copyright 2015
+						</span>
+					</small>
+				</h4>
+				<div class="symbol fadeIn-1 fa-lg">
+					<a title="Twitter" href="#">
+	 					<span><i class="fa fa-twitter"></i>
+					</a>
+					<a title="LinkedIn" href="#">
+	 					<span><i class="fa fa-linkedin"></i>
+					</a>
+					<a title="Facebook" href="#">
+	 					<span><i class="fa fa-facebook"></i>
+					</a>
+					<a title="GooglePLus" href="#">
+	 					<span><i class="fa fa-google-plus"></i>
+				</a>	
+				</div>			
+			</div>
+			
+		</div>	
+	</div>
+
+</body>
+</html>

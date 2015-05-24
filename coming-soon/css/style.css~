@@ -1,0 +1,152 @@
+/*.imagen-fondo {
+	background: url(../img/slide1.jpg) no-repeat;
+}*/
+
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /*min-width: 100%;
+    min-height: 100%;*/
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ 	/*background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;*/
+ 	/*background: url(../img/slide1.jpg) no-repeat;*/
+  	/*background-size: cover;*/
+  	transition: 1s opacity;
+}
+
+
+#fondo { 
+/*	font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+	font-weight:100; */
+	/*background: rgba(65, 133, 184, 0.3);*/
+	background: rgba(255, 117, 20, 0.3);
+	color: white;
+/*	padding: 2rem;
+	width: 33%;
+	margin:2rem;
+	float: right;
+	font-size: 1.2rem;*/
+}
+
+/*Diseño Fluido, ancho del navegador*/
+.container	{
+	padding: 0 15px;	
+}
+
+
+/*Twitter*/
+.twitter-list{
+	margin-bottom: 40px;
+}
+
+ul.list-tweets{
+	padding: 12px 0px 0px 50px;
+	background: url(../img/twitter-back.png) left no-repeat;
+	height: 90px;
+	overflow: hidden;
+	line-height: 20px;
+	font-weight: 300;
+}
+
+ul.list-tweets li a{
+	font-weight: 600;
+	color: white;
+}
+
+/*Menu Content*/
+.menu-content{
+	border-left: 1px solid #fff;
+
+}
+
+.menu li{
+	margin-bottom: 10px;	
+}
+
+
+/*Counter*/
+/*Ver CSS counter*/
+
+
+
+/* Symbols*/
+
+.footer-content{
+	border-left: 1px solid #fff;
+	padding: 5px 0px 5px 10px;
+}
+
+.footer-content a{
+	/*font-size: 30px;*/
+	display: inline-block;
+	padding: 5px;
+	-webkit-transition: all 0.35s ease-in-out;
+   	   -moz-transition: all 0.35s ease-in-out;
+   		 -o-transition: all 0.35s ease-in-out;
+   		-ms-transition: all 0.35s ease-in-out;
+   			transition: all 0.35s ease-in-out;
+   	opacity: 0.5;
+}
+
+.symbol{
+    font-family: 'Mono Social Icons Font';
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+
+/* Animaciones*/
+#home-1, 
+.timer ul li, 
+#home .intro h2, 
+.menu, 
+.menu li a, 
+.footer-content, 
+.footer-content h4, 
+.footer-content a span,
+.close,
+.about-title h1,
+.about-text,
+.newsletter-title h1,
+#newsletter-content .intro h2,
+#newsletter-content form,
+.contact-title h1,
+.address p,
+#contact-content form,
+#map
+{
+	-webkit-transition: all 1s ease-in-out;
+   	   -moz-transition: all 1s ease-in-out;
+   		 -o-transition: all 1s ease-in-out;
+   		-ms-transition: all 1s ease-in-out;
+   			transition: all 1s ease-in-out;
+}
+
+.fadeIn-1{
+	opacity:1;	
+	-webkit-transform: translateX(0%);
+   	   -moz-transform: translateX(0%);
+   		 -o-transform: translateX(0%);
+   		-ms-transform: translateX(0%);
+   			transform: translateX(0%);
+}
+
+/* Queries*/
+
+@media screen and (max-width: 480px) {
+	.twitter-list{
+		margin-bottom: 20px;
+	}
+}
