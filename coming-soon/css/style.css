@@ -10,9 +10,9 @@ video {
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
  	  background: url(img/madrid1-bn.jpg) no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
   	background-size: cover;
   	background-position: 0% 0%;
   	transition: 1s opacity;
@@ -20,7 +20,7 @@ video {
 
 /* Color background*/
 .fondo-color { 
-	position: fixed;
+	  position: fixed;
     top: 50%;
     left: 50%;
     min-width: 100%;
@@ -31,8 +31,45 @@ video {
     transform: translateX(-50%) translateY(-50%);
  	  background: rgba(255, 117, 20, 0.3);
   	background-size: cover;
+    background-position: 0% 0%;
   	transition: 1s opacity;
 }
+
+@media only screen and (max-width: 767px) {
+  video {
+    position: fixed;
+    /*top: 50%;*/
+    /*left: 50%;*/
+    min-width: 100%;
+    min-height: 100%;
+    height: 300%; top: -100%;
+    width: 300%; left: -100%;
+    background-image: url(img/madrid1-bn.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+  }
+
+@media only screen and (max-width: 767px) {
+  .fondo-color { 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    height: 300%; top: -100%;
+    width: 300%; left: -100%;
+    /*transform: translateX(0%) translateY(0%);*/
+    background: rgba(255, 117, 20, 0.3);
+    background-size: cover;
+    background-position: 0% 0%;
+    transition: 1s opacity;
+  }
+}
+
 
 /*Diseño Fluido, ancho del navegador*/
 .container	{
@@ -104,28 +141,25 @@ video {
 }
 
 /* Otras versiones*/
-@-webkit-viewport   { width: device-width; }
+/*@-webkit-viewport   { width: device-width; }
 @-moz-viewport      { width: device-width; }
 @-ms-viewport       { width: device-width; }
 @-o-viewport        { width: device-width; }
 @viewport           { width: device-width; }
+*/
 
-@media only screen and (max-width: 767px) {
-  
-    /* The file size of this background image is 93% smaller
-       to improve page load speed on mobile internet connections */
-    background-image: url(img/madrid1-bn.jpg);
-    background-size: cover;
- 
-}
+/*@media (max-width: 767px) {
+  body {
+    background: black;
+  }
+}*/
 
-@media only screen and (max-width: 767px) {
-  
-    /* The file size of this background image is 93% smaller
-       to improve page load speed on mobile internet connections */
+/*@media only screen and (max-width: 767px) {
+  body {
     background: rgba(255, 117, 20, 0.3);
-  
-}
+    width: 100%;
+  }
+}*/
 
 /*@media screen and (max-width: 500px) { 
   div{width:70%;} 
