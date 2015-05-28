@@ -9,46 +9,14 @@ video {
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
- 	  /*background: url(..img/madrid1-bn.jpg) no-repeat;*/
+ 	  background: url(img/madrid1-bn.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
   	background-size: cover;
-  	/*background-position: 0% 0%;*/
+  	background-position: 0% 0%;
   	transition: 1s opacity;
 }
-
-/* Chrome Safari Android, IOs y Opera -o-*/
-video { 
-    position: -webkit-fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: -webkit-auto;
-    height: -webkit-auto;
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
-    /*background: url(..img/madrid1-bn.jpg) no-repeat;*/
-    background-size: -webkit-cover;
-    background-size: -o-cover;
-    /*background-position: 0% 0%;*/
-    transition: 1s opacity;
-}
-
-video { 
-    position: -o-fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: -o-auto;
-    height: -o-auto;
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
-    /*background: url(..img/madrid1-bn.jpg) no-repeat;*/
-    background-size: -webkit-cover;
-    /*background-position: 0% 0%;*/
-    transition: 1s opacity;
-}
-
 
 /* Color background*/
 .fondo-color { 
@@ -142,4 +110,27 @@ video {
 @-o-viewport        { width: device-width; }
 @viewport           { width: device-width; }
 
+@media only screen and (max-width: 767px) {
+  
+    /* The file size of this background image is 93% smaller
+       to improve page load speed on mobile internet connections */
+    background-image: url(img/madrid1-bn.jpg);
+    background-size: cover;
+ 
+}
 
+@media only screen and (max-width: 767px) {
+  
+    /* The file size of this background image is 93% smaller
+       to improve page load speed on mobile internet connections */
+    background: rgba(255, 117, 20, 0.3);
+  
+}
+
+/*@media screen and (max-width: 500px) { 
+  div{width:70%;} 
+}
+@media screen and (max-device-width: 800px) {
+  body { background: url(img/madrid1-bn.jpg) #FEAC32 no-repeat center center fixed; }
+  #bgvid { display: none; }
+}*/
