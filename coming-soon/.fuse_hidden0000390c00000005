@@ -78,7 +78,7 @@
 
 		<!-- Counter -->
 		<div class="row">
-			<div class="col-xs-12 col-md-6 col-md-offset-1 col-sm-4 col-sm-offset-1">		
+			<div class="col-xs-12 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">		
 				<div id="defaultCountdown2"></div>
 			</div>
 		</div>	
