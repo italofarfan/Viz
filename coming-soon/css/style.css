@@ -9,11 +9,46 @@ video {
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
- 	background: url(..img/madrid1-bn.jpg) no-repeat;
+ 	  /*background: url(..img/madrid1-bn.jpg) no-repeat;*/
   	background-size: cover;
   	/*background-position: 0% 0%;*/
   	transition: 1s opacity;
 }
+
+/* Chrome Safari Android, IOs y Opera -o-*/
+video { 
+    position: -webkit-fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: -webkit-auto;
+    height: -webkit-auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    /*background: url(..img/madrid1-bn.jpg) no-repeat;*/
+    background-size: -webkit-cover;
+    background-size: -o-cover;
+    /*background-position: 0% 0%;*/
+    transition: 1s opacity;
+}
+
+video { 
+    position: -o-fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: -o-auto;
+    height: -o-auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    /*background: url(..img/madrid1-bn.jpg) no-repeat;*/
+    background-size: -webkit-cover;
+    /*background-position: 0% 0%;*/
+    transition: 1s opacity;
+}
+
 
 /* Color background*/
 .fondo-color { 
@@ -26,7 +61,7 @@ video {
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
- 	background: rgba(255, 117, 20, 0.3);
+ 	  background: rgba(255, 117, 20, 0.3);
   	background-size: cover;
   	transition: 1s opacity;
 }
@@ -94,4 +129,17 @@ video {
 /* Animaciones*/
 
 /* Queries*/
+
+/* Windows Phone 8 y IE 10*/
+@-ms-viewport{ 
+  width: device-width; 
+}
+
+/* Otras versiones*/
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
 
